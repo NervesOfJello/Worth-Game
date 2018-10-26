@@ -122,11 +122,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -25.676105
+      value: -21.2
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.675512
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -173,11 +173,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -38.768078
+      value: -32.1
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.93454313
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -224,11 +224,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -30.183735
+      value: -26
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -6.2701387
+      value: -6.9
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -263,6 +263,11 @@ Prefab:
       propertyPath: achievName
       value: Adopt a child
       objectReference: {fileID: 0}
+    - target: {fileID: 114914307536293390, guid: d2861ecff40b9f94780dd43c82797eb6,
+        type: 2}
+      propertyPath: captureTime
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
   m_IsPrefabParent: 0
@@ -275,7 +280,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -14.1
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -326,11 +331,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 12.6
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.6
+      value: 3.2999997
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -365,6 +370,11 @@ Prefab:
       propertyPath: achievName
       value: Volunteer at homeless shelter
       objectReference: {fileID: 0}
+    - target: {fileID: 114914307536293390, guid: d2861ecff40b9f94780dd43c82797eb6,
+        type: 2}
+      propertyPath: captureTime
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
   m_IsPrefabParent: 0
@@ -377,11 +387,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 23.7
+      value: 14.9
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -2.4
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -428,11 +438,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 34.9
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -466,6 +476,11 @@ Prefab:
         type: 2}
       propertyPath: achievName
       value: Write a book
+      objectReference: {fileID: 0}
+    - target: {fileID: 114914307536293390, guid: d2861ecff40b9f94780dd43c82797eb6,
+        type: 2}
+      propertyPath: captureTime
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
@@ -530,11 +545,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.6
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -6.7
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -569,6 +584,11 @@ Prefab:
       propertyPath: achievName
       value: Volunteer at animal shelter
       objectReference: {fileID: 0}
+    - target: {fileID: 114914307536293390, guid: d2861ecff40b9f94780dd43c82797eb6,
+        type: 2}
+      propertyPath: captureTime
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
   m_IsPrefabParent: 0
@@ -581,11 +601,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -43.43999
+      value: -36.6
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -9.278479
+      value: -6.9
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -620,6 +640,11 @@ Prefab:
       propertyPath: achievName
       value: Get Married
       objectReference: {fileID: 0}
+    - target: {fileID: 114914307536293390, guid: d2861ecff40b9f94780dd43c82797eb6,
+        type: 2}
+      propertyPath: captureTime
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
   m_IsPrefabParent: 0
@@ -632,11 +657,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -17.3
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -11.4
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 4520641573340648, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -670,6 +695,11 @@ Prefab:
         type: 2}
       propertyPath: achievName
       value: Fall in love
+      objectReference: {fileID: 0}
+    - target: {fileID: 114914307536293390, guid: d2861ecff40b9f94780dd43c82797eb6,
+        type: 2}
+      propertyPath: captureTime
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2861ecff40b9f94780dd43c82797eb6, type: 2}
