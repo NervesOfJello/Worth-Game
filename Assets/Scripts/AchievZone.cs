@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AchievZone : MonoBehaviour {
+public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
 
     [SerializeField]
     private float captureTime;
@@ -28,7 +29,7 @@ public class AchievZone : MonoBehaviour {
     private string achievName;
 
     [SerializeField]
-    private string achievValue;
+    private int achievValue;
 
     public bool isAchieved = false;
 
@@ -43,8 +44,19 @@ public class AchievZone : MonoBehaviour {
 
 		Achieved();
 
+        if (isAchieved)
+        {
+            ListOfAchievementsScript.achievements.Add(this);
+        }
+
 	}
 
+
+    public AchievZone(string Name, int Value)
+    {
+        Name = achievName;
+        Value = achievValue;
+    }
 
 
     private void Achieved()
@@ -69,7 +81,16 @@ public class AchievZone : MonoBehaviour {
 
     }
 
+    public int CompareTo(AchievZone other)
+    {
+        if (other == null)
+        {
+            return 1;
+        }
+
+        //Return the difference in power.
+        return achievValue - other.achievValue;
 
 
-
+    }
 }
