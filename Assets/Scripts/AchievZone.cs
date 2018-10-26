@@ -23,7 +23,7 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     private SpriteRenderer self;
 
     [SerializeField]
-    private Text achievText;
+    public Text achievText;
 
     [SerializeField]
     private string achievName;
