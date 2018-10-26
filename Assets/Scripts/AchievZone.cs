@@ -27,6 +27,10 @@ public class AchievZone : MonoBehaviour {
     [SerializeField]
     private string achievName;
 
+    [SerializeField]
+    private string achievValue;
+
+    public bool isAchieved = false;
 
     // Use this for initialization
     void Start () {
@@ -35,7 +39,16 @@ public class AchievZone : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
+
+		Achieved();
+
+	}
+
+
+
+    private void Achieved()
+    {
 
         int capturePercent = (int)((captureTime / originalTime) * 100);
 
@@ -51,7 +64,12 @@ public class AchievZone : MonoBehaviour {
         {
             self.color = Color.green;
             achievText.text = achievName + ": 100%";
+            isAchieved = true;
         }
-		
-	}
+
+    }
+
+
+
+
 }
