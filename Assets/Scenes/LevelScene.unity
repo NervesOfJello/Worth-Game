@@ -152,6 +152,54 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1731307472247662, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706791998441884, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618571312951182, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607761426762184, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499290258476900, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449213650187998, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349849825639784, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337556860535032, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262054297808570, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108239721457444, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065474063480184, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011058831668440, guid: 18c7aebed8c82724194724411369157f, type: 2}
+      propertyPath: m_TagString
+      value: Achievement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 18c7aebed8c82724194724411369157f, type: 2}
   m_IsPrefabParent: 0
