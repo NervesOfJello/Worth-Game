@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
@@ -13,6 +14,8 @@ public class Player : MonoBehaviour {
     float verticalInput;
 
     //Component References
+    [SerializeField]
+    Text headsUpText;
     Rigidbody2D playerBody;
 
 	// Use this for initialization
@@ -31,6 +34,19 @@ public class Player : MonoBehaviour {
     private void FixedUpdate()
     {
         Move();
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<AchievZone>() != null)
+        {
+            headsUpText.text = collision.gameObject.GetComponent<AchievZone>().achievText.text;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        headsUpText.text = "";
     }
 
     //Recieve input values
