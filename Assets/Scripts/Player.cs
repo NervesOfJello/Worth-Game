@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
     //Fields
     [SerializeField]
-    float moveSpeed;
+    public float moveSpeed;
 
     //Variables
     float horizontalInput;
