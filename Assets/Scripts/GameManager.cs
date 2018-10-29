@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour {
             secondsPast += updateInterval;
             yield return new WaitForSeconds(updateInterval);
             UpdateTimeSlider();
-            Debug.Log(GameTime + "seconds left");
+           // Debug.Log(GameTime + "seconds left");
         }
         SceneManager.LoadScene("EndScene");
     }

@@ -51,13 +51,8 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
 
 	}
 
-
-    public AchievZone(string Name, int Value)
-    {
-        Name = achievName;
-        Value = achievValue;
-    }
-
+   
+    
 
     private void Achieved()
     {
