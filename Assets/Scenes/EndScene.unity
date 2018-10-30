@@ -121,7 +121,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 14816942}
-  - component: {fileID: 14816941}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -129,18 +128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &14816941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 14816940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1918f4239b061474583da0d27eff8803, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Grave: {fileID: 1176357316}
 --- !u!4 &14816942
 Transform:
   m_ObjectHideFlags: 0
@@ -693,6 +680,7 @@ GameObject:
   - component: {fileID: 1176357320}
   - component: {fileID: 1176357319}
   - component: {fileID: 1176357318}
+  - component: {fileID: 1176357322}
   m_Layer: 5
   m_Name: TitleText
   m_TagString: Grave
@@ -791,6 +779,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1176357316}
   m_CullTransparentMesh: 0
+--- !u!114 &1176357322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176357316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7665a13846c0a534080fc9a08b0a0d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Grave: {fileID: 0}
 --- !u!1 &1589861944
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
 
@@ -26,18 +28,30 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     public Text achievText;
 
     [SerializeField]
-    private string achievName;
+    public string achievName;
 
     [SerializeField]
     private int achievValue;
 
     public bool isAchieved = false;
 
+
+    public static List<AchievZone> achievements = new List<AchievZone>();
+
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
+
     // Use this for initialization
     void Start () {
         originalTime = captureTime;
         achievText.text = achievName + ": " + (100 - ((captureTime/originalTime)*100)) + "%";
-	}
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -46,7 +60,7 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
 
         if (isAchieved)
         {
-            ListOfAchievementsScript.achievements.Add(this);
+            achievements.Add(this);
         }
 
 	}
@@ -88,4 +102,12 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
 
 
     }
+    public void AddAchievement(AchievZone newAchievement)
+    {
+        achievements.Add(newAchievement);
+
+    }
+
+
+
 }
