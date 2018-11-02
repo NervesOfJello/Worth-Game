@@ -20,9 +20,10 @@ public class AiMove : MonoBehaviour {
 	void Update () {
         playerTransform = player.transform;
         distance = Vector3.Distance(playerTransform.position, transform.position);
-        if (distance > 5)
+       
+        if (distance > 1)
         {
-           // GetComponent<NavMeshAgent2D>
+            GetComponent<NavMeshAgent2D>().destination = playerTransform.position;
         }
 
 
