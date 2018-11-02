@@ -22,7 +22,7 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     private ContactFilter2D playerContactFilter;
 
     [SerializeField]
-    private SpriteRenderer self;
+    private Image self;
 
     [SerializeField]
     public Text achievText;
