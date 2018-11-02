@@ -33,7 +33,7 @@ public class StartOptions : MonoBehaviour {
 		//Get a reference to PlayMusic attached to UI object
 		playMusic = GetComponent<PlayMusic> ();
 
-        //Get a reference to the CanvasGroup attached to the main menu so that we can fade its alpha
+        //Get a reference to the CanvasGroup attached to the main menu so that we can fade it's alpha
         menuCanvasGroup = GetComponent<CanvasGroup>();
 
         fadeImage.color = menuSettingsData.sceneChangeFadeColor;
