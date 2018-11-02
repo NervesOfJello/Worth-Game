@@ -1697,8 +1697,8 @@ MonoBehaviour:
   startingCamSize: 5
   finalCamSize: 20
   startSpeed: 20
-  endSpeed: 5
-  GameTime: 10
+  endSpeed: 3
+  GameTime: 60
   updateInterval: 0.01
 --- !u!1 &1615994099
 GameObject:
