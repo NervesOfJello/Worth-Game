@@ -22,6 +22,9 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     private ContactFilter2D playerContactFilter;
 
     [SerializeField]
+    private Slider zoneSlider;
+
+    [SerializeField]
     private Image self;
 
     [SerializeField]
@@ -48,9 +51,10 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     // Use this for initialization
     void Start () {
         originalTime = captureTime;
+
         achievText.text = achievName + ": " + (100 - ((captureTime/originalTime)*100)) + "%";
 
-
+        zoneSlider.value = 0;
     }
 	
 	// Update is called once per frame
@@ -72,6 +76,8 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     {
 
         int capturePercent = (int)((captureTime / originalTime) * 100);
+
+        zoneSlider.value = (100 - capturePercent);
 
         insideZone = playerDetectTrigger.OverlapCollider(playerContactFilter, playerHitDetectionResults) > 0;
 
