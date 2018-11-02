@@ -30,8 +30,16 @@ public class GraveStoneScript : MonoBehaviour {
             text = this.GetComponent<Text>();
             foreach (AchievZone x in AchievZone.achievements)
             {
-
-                text.text =  x.achievName;
+            if (text.text == "")
+            {
+                text.text = x.achievName;
+                break;
+            }
+            else
+            {
+                text.text += "and " + x.achievName;
+            }
+                
             }
         
     }

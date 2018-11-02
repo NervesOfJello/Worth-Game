@@ -7,7 +7,10 @@ public class AiMove : MonoBehaviour {
     [SerializeField]
     public GameObject player;
 
-    public Transform playerTransform;
+    [SerializeField]
+    AchievZone achievement;
+
+    private Transform playerTransform;
 
     float distance;
 
@@ -20,12 +23,24 @@ public class AiMove : MonoBehaviour {
 	void Update () {
         playerTransform = player.transform;
         distance = Vector3.Distance(playerTransform.position, transform.position);
-       
+
+        if (achievement.isAchieved == true)
+        {
+            Follow();
+        }
+
+	}
+
+
+    private void Follow()
+    {
+
         if (distance > 1)
         {
             GetComponent<NavMeshAgent2D>().destination = playerTransform.position;
         }
 
+        
+    }
 
-	}
 }

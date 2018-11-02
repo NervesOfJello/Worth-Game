@@ -46,6 +46,9 @@ TagManager:
   - name: Background
     uniqueID: 876488757
     locked: 0
+  - name: AchievementZones
+    uniqueID: 2462747527
+    locked: 0
   - name: NPCs
     uniqueID: 1922923499
     locked: 0
