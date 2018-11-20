@@ -43,8 +43,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1103047607
+    locked: 0
   - name: Background
     uniqueID: 876488757
+    locked: 0
+  - name: Building Base
+    uniqueID: 2369366401
     locked: 0
   - name: AchievementZones
     uniqueID: 2462747527
@@ -52,8 +58,14 @@ TagManager:
   - name: NPCs
     uniqueID: 1922923499
     locked: 0
+  - name: Building Roof
+    uniqueID: 823330905
+    locked: 0
   - name: Foreground
     uniqueID: 4095825535
+    locked: 0
+  - name: Foreground2
+    uniqueID: 1435771337
     locked: 0
   - name: Player
     uniqueID: 805713505

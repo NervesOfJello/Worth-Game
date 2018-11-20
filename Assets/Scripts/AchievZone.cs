@@ -31,12 +31,16 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     public Text achievText;
 
     [SerializeField]
+    public string achievTitle;
+
+    [SerializeField]
     public string achievName;
 
     [SerializeField]
     private int achievValue;
 
     public bool isAchieved = false;
+    public bool isAddedToList = false;
 
 
     public static List<AchievZone> achievements = new List<AchievZone>();
@@ -52,7 +56,7 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
     void Start () {
         originalTime = captureTime;
 
-        achievText.text = achievName + ": " + (100 - ((captureTime/originalTime)*100)) + "%";
+        achievText.text = achievTitle + ": " + (100 - ((captureTime/originalTime)*100)) + "%";
 
         zoneSlider.value = 0;
     }
@@ -64,7 +68,11 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
 
         if (isAchieved)
         {
-            achievements.Add(this);
+            if (!isAddedToList)
+            {
+                achievements.Add(this);
+            }
+            isAddedToList = true;
         }
 
 	}
@@ -84,13 +92,13 @@ public class AchievZone : MonoBehaviour, IComparable<AchievZone> {
         if (insideZone && captureTime >= 0)
         {
             captureTime -= Time.deltaTime;
-            achievText.text = achievName + ": " + (100 - (capturePercent)) + "%";
+            achievText.text = achievTitle + ": " + (100 - (capturePercent)) + "%";
         }
 
         if (captureTime <= 0)
         {
             self.color = Color.green;
-            achievText.text = achievName + ": 100%";
+            achievText.text = achievTitle + ": 100%";
             isAchieved = true;
         }
 

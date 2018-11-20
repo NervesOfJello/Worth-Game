@@ -33,11 +33,11 @@ public class GraveStoneScript : MonoBehaviour {
             if (text.text == "")
             {
                 text.text = x.achievName;
-                break;
+              //  break;
             }
             else
             {
-                text.text += "and " + x.achievName;
+                text.text += "\n" + x.achievName;
             }
                 
             }

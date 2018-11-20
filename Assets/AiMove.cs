@@ -10,23 +10,32 @@ public class AiMove : MonoBehaviour {
     [SerializeField]
     AchievZone achievement;
 
+    [SerializeField]
+    bool isTreeCat;
+
     private Transform playerTransform;
+
+    private SpriteRenderer sprite;
 
     float distance;
 
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        sprite = GetComponent<SpriteRenderer>();
+    }
+
+    // Update is called once per frame
+    void Update () {
         playerTransform = player.transform;
         distance = Vector3.Distance(playerTransform.position, transform.position);
 
         if (achievement.isAchieved == true)
         {
             Follow();
+            if (isTreeCat)
+            {
+                sprite.sortingLayerName = "NPCs";
+            }
         }
 
 	}
